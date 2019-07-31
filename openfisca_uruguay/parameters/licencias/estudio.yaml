@@ -1,0 +1,8 @@
+# A parameter can contain utf-8 characters.
+antiguedad_min:
+  description: Antiguedad mínima necesaria para acceder a la licencia
+  metadata:
+    reference:
+  values:
+    2009-02-01:
+      value: 6

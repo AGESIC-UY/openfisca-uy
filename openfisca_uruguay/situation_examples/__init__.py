@@ -15,3 +15,9 @@ def parse(file_name):
 
 single = parse('single.json')
 couple = parse('couple.json')
+single_jubilacion = parse('jubilacion.json')
+single_licencia_x_duelo = parse('licencia_x_duelo.json')
+single_licencia_x_estudio = parse('licencia_x_estudio.json')
+single_licencia_x_matrimonio = parse('licencia_x_matrimonio.json')
+single_licencia_x_paternidad = parse('licencia_x_paternidad.json')
+couple_ticket_alimentacion = parse('couple_ticket_alimentacion.json')

@@ -1,0 +1,77 @@
+- name: Man worked for 5
+  period: 2019-05
+  input:
+    birth: 1980-02-15
+    number_of_years_worked: 5
+  output:
+    number_of_years_computados: 5
+    elegible_jubilacion_comun: False
+    elegible_jubilacion_edad_avanzada: False
+
+- name: Man worked for 16
+  period: 2019-05
+  input:
+    birth: 1948-11-18
+    number_of_years_worked: 16
+  output:
+    number_of_years_computados: 16
+    elegible_jubilacion_comun: False
+    elegible_jubilacion_edad_avanzada: True
+
+- name: Worked for 30
+  period: 2019-01
+  input:
+    birth: 1948-11-18
+    number_of_years_worked: 30
+  output:
+    number_of_years_computados: 30
+    elegible_jubilacion_comun: True
+    elegible_jubilacion_edad_avanzada: True
+
+- name: Woman with 5 children
+  period: 2019-05
+  input:
+    birth: 1948-11-18
+    number_of_years_worked: 25
+    number_of_children: 8
+    gender: woman
+  output:
+    number_of_years_computados: 30
+    elegible_jubilacion_comun: True
+    elegible_jubilacion_edad_avanzada: True
+
+- name: Woman with 5 children, hasn't worked enough for 60
+  period: 2019-05
+  input:
+    birth: 1948-11-18
+    number_of_years_worked: 20
+    number_of_children: 5
+    gender: woman
+  output:
+    number_of_years_computados: 25
+    elegible_jubilacion_comun: False
+    elegible_jubilacion_edad_avanzada: True
+
+- name: Woman with 5 children, hasn't worked enough for any jubilation
+  period: 2019-05
+  input:
+    birth: 1984-11-18
+    number_of_years_worked: 14
+    number_of_children: 5
+    gender: woman
+  output:
+    number_of_years_computados: 19
+    elegible_jubilacion_comun: False
+    elegible_jubilacion_edad_avanzada: False
+
+- name: Man with 5 children
+  period: 2019-05
+  input:
+    birth: 1948-11-18
+    number_of_years_worked: 31
+    number_of_children: 5
+    gender: man
+  output:
+    number_of_years_computados: 31
+    elegible_jubilacion_comun: True
+    elegible_jubilacion_edad_avanzada: True

@@ -1,0 +1,35 @@
+{
+    "persons": {
+      "Tahi": {
+        "gender": {
+          "2019-03": "woman"
+        },
+        "birth": {
+          "ETERNITY": "1948-11-18"
+        },
+        "number_of_years_worked": {
+          "2019-03": 10
+        },
+        "number_of_children": {
+          "2019-03": 7
+        },
+        "number_of_years_computados": {
+          "2019-03": null
+        },
+        "age": {
+          "2019-03": null
+        },
+        "elegible_jubilacion_comun": {
+          "2019-03": null
+        },
+        "elegible_jubilacion_edad_avanzada": {
+          "2019-03": null
+        }
+      }
+    },
+    "households": {
+      "one": {
+        "parents": ["Tahi"]
+      }
+    }
+  }

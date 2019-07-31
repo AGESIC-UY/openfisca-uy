@@ -1,0 +1,33 @@
+# A parameter can contain utf-8 characters.
+max_edad:
+  description: Jubilación por edad avanzada
+  metadata:
+    reference: https://www.bps.gub.uy/3498/jubilaciones.html
+    unit: year
+  values:
+    2009-02-01:
+      value: 70
+min_edad:
+  description: Jubilación por edad avanzada
+  metadata:
+    reference: https://www.bps.gub.uy/3498/jubilaciones.html
+    unit: year
+  values:
+    2009-02-01:
+      value: 65
+min_year:
+  description: Cantidad mínima de años requeridos
+  metadata:
+    reference: https://www.bps.gub.uy/3498/jubilaciones.html
+    unit: year
+  values:
+    2009-02-01:
+      value: 15
+max_year:
+  description: Cantidad máxima de años requeridos
+  metadata:
+    reference: https://www.bps.gub.uy/3498/jubilaciones.html
+    unit: year
+  values:
+    2009-02-01:
+      value: 25

@@ -1,0 +1,26 @@
+{
+    "persons": {
+      "Tahi": {
+        "gender": {
+          "2019-03": "woman"
+        },
+        "birth": {
+          "ETERNITY": "1984-11-18"
+        },
+        "trabaja_act_priv": {
+          "2019-03": 1
+        },
+        "fallecimiento_status": {
+          "2019-03": "none"
+        },
+        "cantidad_dias_licencia_x_duelo": {
+          "2019-03": null
+        }
+      }
+    },
+    "households": {
+      "one": {
+        "parents": ["Tahi"]
+      }
+    }
+  }

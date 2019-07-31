@@ -1,0 +1,82 @@
+{
+    "persons": {
+        "01": {
+            "Aguinaldo_1er_Sem": {
+                "2018": 73252
+            },
+            "Aguinaldo_2do_Sem": {
+                "2018": 75100
+            },
+            "Aguinaldo_total": {
+                "2018": null
+            },
+            "Year_Trabajados": {
+                "2018": 20
+            },
+            "Prima_Antiguedad": {
+                "2018": null
+            },
+            "A_B": {
+                "2018": null
+            },
+            "BPC_dic": {
+                "2018": null
+            },
+            "Importe": {
+                "2019": null
+            }
+        },
+        "02": {
+            "Aguinaldo_1er_Sem": {
+                "2018": 31910
+            },
+            "Aguinaldo_2do_Sem": {
+                "2018": 31873
+            },
+            "Aguinaldo_total": {
+                "2018": null
+            },
+            "Year_Trabajados": {
+                "2018": 15
+            },
+            "Prima_Antiguedad": {
+                "2018": null
+            },
+            "A_B": {
+                "2018": null
+            },
+            "BPC_dic": {
+                "2018": null
+            },
+            "Importe": {
+                "2019": null
+            }
+        },
+        "03": {
+            "Aguinaldo_1er_Sem": {
+                "2018": 13327
+            },
+            "Aguinaldo_2do_Sem": {
+                "2018": 13495
+            },
+            "Aguinaldo_total": {
+                "2018": null
+            },
+            "Year_Trabajados": {
+                "2018": 10
+            },
+            "Prima_Antiguedad": {
+                "2018": null
+            },
+            "A_B": {
+                "2018": null
+            },
+            "BPC_dic": {
+                "2018": null
+            },
+            "Importe": {
+                "2019": null
+            }
+        }
+    }
+}

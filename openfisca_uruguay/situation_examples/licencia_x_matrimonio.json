@@ -1,0 +1,26 @@
+{
+    "persons": {
+      "Tahi": {
+        "gender": {
+          "2019-03": "woman"
+        },
+        "birth": {
+          "ETERNITY": "1984-11-18"
+        },
+        "trabaja_act_priv": {
+          "2019-03": 1
+        },
+        "es_matrimonio": {
+          "2019-03": 1
+        },
+        "cantidad_dias_licencia_x_matrimonio": {
+          "2019-03": null
+        }
+      }
+    },
+    "households": {
+      "one": {
+        "parents": ["Tahi"]
+      }
+    }
+  }

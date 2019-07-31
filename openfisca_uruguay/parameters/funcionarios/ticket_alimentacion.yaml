@@ -1,0 +1,33 @@
+prima_antiguedad:
+  description: Prima por antiguedad
+  metadata:
+    unit: currency
+  values:
+    2017-01-01:
+      value: 72.33
+    2018-01-01:
+      value: 76.96
+    2019-01-01:
+      value: 83.08
+
+minimo_year:
+  description: Mínimos años requeridos
+  values:
+    2017-01-01:
+      value: 3
+    2018-01-01:
+      value: 3
+    2019-01-01:
+      value: 3
+
+bpc:
+  description: Valor de BPC a computar
+  metadata:
+    unit: currency
+  values:
+    2017-01-01:
+      value: 3611
+    2018-01-01:
+      value: 3848
+    2019-01-01:
+      value: 4154

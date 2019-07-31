@@ -36,3 +36,19 @@ class age(Variable):
         is_birthday_past = (birth_month < period.start.month) + (birth_month == period.start.month) * (birth_day <= period.start.day)
 
         return (period.start.year - birth_year) - where(is_birthday_past, 0, 1)  # If the birthday is not passed this year, subtract one year
+
+
+class Genders(Enum):
+    __order__ = "man woman unspecified"
+    man = u'Man'
+    woman = u'Woman'
+    unspecified = u'Unspecified'
+
+
+class gender(Variable):
+    value_type = Enum
+    possible_values = Genders
+    default_value = Genders.unspecified
+    entity = Person
+    definition_period = MONTH
+    label = u"A person's gender"

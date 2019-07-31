@@ -6,7 +6,12 @@ from openfisca_core.taxbenefitsystems import TaxBenefitSystem
 
 from openfisca_uruguay import entities
 from openfisca_uruguay.situation_examples import couple
-
+from openfisca_uruguay.situation_examples import single_jubilacion
+from openfisca_uruguay.situation_examples import single_licencia_x_duelo
+from openfisca_uruguay.situation_examples import single_licencia_x_estudio
+from openfisca_uruguay.situation_examples import single_licencia_x_matrimonio
+from openfisca_uruguay.situation_examples import single_licencia_x_paternidad
+from openfisca_uruguay.situation_examples import couple_ticket_alimentacion
 
 COUNTRY_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -27,7 +32,7 @@ class CountryTaxBenefitSystem(TaxBenefitSystem):
 
         # We define which variable, parameter and simulation example will be used in the OpenAPI specification
         self.open_api_config = {
-            "variable_example": "disposable_income",
-            "parameter_example": "taxes.income_tax_rate",
-            "simulation_example": couple,
+            "variable_example": "elegible_jubilacion_comun",
+            "parameter_example": "ciudadanos.edad_de_jubilacion",
+            "simulation_example": single_jubilacion,
             }

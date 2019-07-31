@@ -1,0 +1,43 @@
+- name: Trabajador empresa privada, estudiante, con 8 meses de antiguedad y 48 horas de trabajo semanales
+  period: 2019-05
+  input:
+    trabaja_act_priv: 1
+    es_estudiante: 1
+    antiguedad: 8
+    cantidad_horas_semanales: 48
+  output:
+      cantidad_dias_licencia_x_estudio: 9
+
+- name: Trabajador empresa privada, no estudiante, con 8 meses de antiguedad y 48 horas de trabajo semanales
+  period: 2019-05
+  input:
+    trabaja_act_priv: 1
+    es_estudiante: 0
+    antiguedad: 8
+    cantidad_horas_semanales: 48
+  output:
+    cantidad_dias_licencia_x_estudio: 0
+
+- name: Trabajador empresa privada con nacimiento de un hijo o adopción o legitimación adoptiva
+  period: 2019-05
+  input:
+    trabaja_act_priv: 1
+    paternidad_status: maternidad
+  output:
+    cantidad_dias_licencia_x_paternidad: 3
+
+- name: Trabajador empresa privada que no cumple con nacimiento de un hijo o adopción o legitimación adoptiva
+  period: 2019-05
+  input:
+    trabaja_act_priv: 1
+    paternidad_status: none
+  output:
+    cantidad_dias_licencia_x_paternidad: 0
+
+- name: Trabajador empresa privada que se casó
+  period: 2019-05
+  input:
+    trabaja_act_priv: 1
+    es_matrimonio: 1
+  output:
+    cantidad_dias_licencia_x_matrimonio: 3
