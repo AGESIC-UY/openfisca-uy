@@ -1,5 +1,5 @@
 - name: Calculo del ticket de alimentación para el año 2018
-  description: Simulación del calculo del ticket de alimentación para los funcionarios de Agesic 
+  description: Simulación del calculo del ticket de alimentación
   period: 2018
   absolute_error_margin: 0
   input:
