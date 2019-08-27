@@ -5,61 +5,61 @@
   input:
     persons:
  # Listado de 5 personas que no reciben ticket de alimentación
-      17485784:
+      user1:
         Aguinaldo_1er_Sem:
           2017: 73251.7247861205
         Aguinaldo_2do_Sem:
           2017: 75099.5210523833
         Prima_Antiguedad:
           2017: 2527
-      17414466:
+      user:
         Aguinaldo_1er_Sem:
           2017: 72788.2163527871
         Aguinaldo_2do_Sem:
           2017: 74630.1508523832
         Prima_Antiguedad:
           2017: 1589
-      30563838:
+      user3:
         Aguinaldo_1er_Sem:
           2017: 57867.4285088128
         Aguinaldo_2do_Sem:
           2017: 58075.8551456924
         Prima_Antiguedad:
           2017: 578
-      33865158:
+      user4:
         Aguinaldo_1er_Sem:
           2017: 38846.1636484383
         Aguinaldo_2do_Sem:
           2017: 42135.2991793553
-      30639374:
+      user5:
         Aguinaldo_1er_Sem:
           2017: 44771.4411484383  
         Aguinaldo_2do_Sem:
           2017: 52010.6941793553
  # Listado de 5 personas que reciben ticket de alimentación 
-      18788733:
+      user1:
         Aguinaldo_1er_Sem:
           2017: 33524.4003151049  
         Aguinaldo_2do_Sem:
           2017: 33507.4391793553
-      32428284:
+      user2:
         Aguinaldo_1er_Sem:
           2017: 31910.2672606048  
         Aguinaldo_2do_Sem:
           2017: 31872.8932009809
-      35131430:
+      user3:
         Aguinaldo_1er_Sem:
           2017: 13326.95  
         Aguinaldo_2do_Sem:
           2017: 13495.482916569
-      38205664:
+      user4:
         Aguinaldo_1er_Sem:
           2017: 19221.414983923  
         Aguinaldo_2do_Sem:
           2017: 18294.4507393794
         Prima_Antiguedad:
           2017: 578 
-      38986826:
+      user5:
         Aguinaldo_1er_Sem:
           2017: 20758.1052364867  
         Aguinaldo_2do_Sem:
